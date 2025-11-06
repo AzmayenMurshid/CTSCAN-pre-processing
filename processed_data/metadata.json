@@ -1,0 +1,48 @@
+{
+  "img_size": [
+    224,
+    224
+  ],
+  "normalize": true,
+  "grayscale": false,
+  "class_mapping": {
+    "adenocarcinoma": 0,
+    "Benign cases": 1,
+    "large cell carcinoma": 2,
+    "Normal cases": 3,
+    "squamous cell carcinoma": 4
+  },
+  "train_count": 1074,
+  "val_count": 230,
+  "test_count": 231,
+  "class_counts": {
+    "adenocarcinoma": 337,
+    "Benign cases": 120,
+    "large cell carcinoma": 187,
+    "Normal cases": 631,
+    "squamous cell carcinoma": 260
+  },
+  "split_class_counts": {
+    "train": {
+      "adenocarcinoma": 236,
+      "Benign cases": 84,
+      "large cell carcinoma": 131,
+      "Normal cases": 444,
+      "squamous cell carcinoma": 179
+    },
+    "val": {
+      "adenocarcinoma": 49,
+      "Benign cases": 18,
+      "large cell carcinoma": 29,
+      "Normal cases": 94,
+      "squamous cell carcinoma": 40
+    },
+    "test": {
+      "adenocarcinoma": 52,
+      "Benign cases": 18,
+      "large cell carcinoma": 27,
+      "Normal cases": 93,
+      "squamous cell carcinoma": 41
+    }
+  }
+}
