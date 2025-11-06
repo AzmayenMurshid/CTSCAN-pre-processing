@@ -246,6 +246,21 @@ preprocessor.preprocess_dataset(
 
 ---
 
+### Scalability & Severe Imbalance: Future Considerations
+
+As datasets become more **scalable** (i.e., with the addition of more images and potentially more classes), it becomes easier to address _severe class imbalance_. Here is how scalability helps:
+
+- **More Data = More Minority Samples:** With increased scalability, the absolute number of samples in minority classes typically rises, even if class proportions stay similar. This alleviates the risk of classes having too few examples to support effective model training.
+- **Resampling Techniques Become Viable:** Larger datasets provide greater flexibility for applying _oversampling, undersampling_, or data augmentation to minority classes, reducing overfitting concerns.
+- **Improved Stratified Splits:** With scalability, stratified data splits can be performed while maintaining class proportions, ensuring that training, validation, and test sets all include sufficient examples from each class for reliable performance assessment.
+- **Enabling Advanced Methods:** Scalable datasets make advanced techniques, such as class-balanced loss functions or ensemble approaches, more practical and effective. These methods are often not feasible on very small or highly imbalanced datasets.
+
+> **In summary:** As **scalability increases**, mitigation of severe class imbalance becomes more practical. While appropriate split ratios remain important, expanding the dataset is the most reliable long-term approach to improving class balance.
+
+**Practical tip:** It is recommended to periodically review class distributions and adjust split ratios or balancing strategies as dataset scale increases.
+
+
+
 ## Summary
 
 | Split | Use Case | Recommendation |
