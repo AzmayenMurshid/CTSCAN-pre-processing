@@ -432,7 +432,6 @@ squamous cell carcinoma:
   JPG: 0 (0.0%)
   ⚠️  WARNING: All images are PNG - format-class correlation detected!
 
-======================================================================
 📈 OVERALL STATISTICS:
 ----------------------------------------------------------------------
 Total images: 1535
