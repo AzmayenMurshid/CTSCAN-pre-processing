@@ -27,22 +27,49 @@
       "adenocarcinoma": 236,
       "Benign cases": 84,
       "large cell carcinoma": 131,
-      "Normal cases": 444,
-      "squamous cell carcinoma": 179
+      "Normal cases": 441,
+      "squamous cell carcinoma": 182
     },
     "val": {
-      "adenocarcinoma": 49,
+      "adenocarcinoma": 50,
       "Benign cases": 18,
-      "large cell carcinoma": 29,
-      "Normal cases": 94,
-      "squamous cell carcinoma": 40
+      "large cell carcinoma": 28,
+      "Normal cases": 95,
+      "squamous cell carcinoma": 39
     },
     "test": {
-      "adenocarcinoma": 52,
+      "adenocarcinoma": 51,
       "Benign cases": 18,
-      "large cell carcinoma": 27,
-      "Normal cases": 93,
-      "squamous cell carcinoma": 41
+      "large cell carcinoma": 28,
+      "Normal cases": 95,
+      "squamous cell carcinoma": 39
+    }
+  },
+  "per_class_split_distribution": {
+    "adenocarcinoma": {
+      "train": 236,
+      "val": 50,
+      "test": 51
+    },
+    "Benign cases": {
+      "train": 84,
+      "val": 18,
+      "test": 18
+    },
+    "large cell carcinoma": {
+      "train": 131,
+      "val": 28,
+      "test": 28
+    },
+    "Normal cases": {
+      "train": 441,
+      "val": 95,
+      "test": 95
+    },
+    "squamous cell carcinoma": {
+      "train": 182,
+      "val": 39,
+      "test": 39
     }
   }
 }
